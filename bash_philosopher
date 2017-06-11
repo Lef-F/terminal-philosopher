@@ -1,0 +1,15 @@
+#!/bin/bash
+# This script will read an input and append it to the history.log file, every time a terminal is invoked.
+lines=$(wc -l < .questions)
+rand=$(((RANDOM % $lines)+1))
+echo $(sed "${rand}q;d" .questions)
+read wtf
+
+if [[ -n "${wtf}" ||  "${wtf}" -ne " " ]]; then
+	echo $(date) ' | '  $rand ' | '  $wtf >> history.log
+fi
+clear
+
+lines=$(wc -l < history.log)
+rand=$(((RANDOM % $lines)+1))
+echo $(sed "${rand}q;d" history.log)
