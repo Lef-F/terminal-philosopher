@@ -1,11 +1,11 @@
-## The Terminal Philosopher
+# The Terminal Philosopher
 
 No more passive boring terminals!
 Today we make a stand!
 
 Dr. Terminal Philosopher is here to make you wonder about the questions that don't matter!
 
-# What's that all about?
+## What's that all about?
 
 With The Philosophical Terminal, every time you open your gnome terminal you get a random
 philosophical question, to which you can type in an answer.
@@ -17,7 +17,7 @@ After you answer, the terminal screen refreshes and you get a randomly picked an
 
 (In case you are in a hurry, you can just press 'Enter' to continue...)
 
-# Installation
+## Installation
 
 To install:
 1) Place the files bash_philosopher and questions in your ~/ (home directory)
