@@ -6,10 +6,10 @@ echo $(sed "${rand}q;d" .questions)
 read wtf
 
 if [[ -n "${wtf}" ||  "${wtf}" -ne " " ]]; then
-	echo $(date) ' | '  $rand ' | '  $wtf >> history.log
+	echo $(date) ' | '  $rand ' | '  $wtf >> .history.log
 fi
 clear
 
-lines=$(wc -l < history.log)
+lines=$(wc -l < .history.log)
 rand=$(((RANDOM % $lines)+1))
-echo $(sed "${rand}q;d" history.log)
+echo $(sed "${rand}q;d" .history.log)

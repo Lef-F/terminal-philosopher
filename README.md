@@ -20,12 +20,12 @@ After you answer, the terminal screen refreshes and you get a randomly picked an
 ## Installation
 
 To install:
-1) Place the files bash_philosopher and questions in your ~/ (home directory)
-2) Go to your ~/.bashrc file and add the following at the end of the file: . ~/bash_philosopher
+1) In the *Terminal Philosopher* folder do `chmod +x install.sh` to make the installation script executable. 
+2) Run `./install.sh`
 
 That's all! Now open your terminal and good luck!
 
-You can add more questions in the questions file, as long as it is typed in one line.
+You can add more (or remove) questions in the questions file, as long as it is typed in one line.
 
 Have fun!
 
