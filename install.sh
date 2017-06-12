@@ -13,9 +13,7 @@ cp $(pwd)/questions ~/.questions
 # Add entry to .bashrc
 echo "" >>~/.bashrc
 echo "# The following code summons the Terminal Philosopher" >>~/.bashrc
-echo "if [[ -f ~/.questions && -f ~/.bash_philosopher ]]; then" >>~/.bashrc
-echo "  . ~/.bash_philosopher" >>~/.bashrc
-echo "fi" >>~/.bashrc
+echo "if [[ -f ~/.questions && -f ~/.bash_philosopher ]]; then . ~/.bash_philosopher; fi" >>~/.bashrc
 echo "" >>~/.bashrc
 
 # Great success!
