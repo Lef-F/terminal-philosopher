@@ -5,13 +5,13 @@ Today we make a stand!
 
 Dr. Terminal Philosopher is here to make you wonder about the questions that don't matter!
 
-## What's that all about?
+## What's this all about?
 
-With The Philosophical Terminal, every time you open your gnome terminal you get a random
+With *Terminal Philosopher*, every time you open your terminal you get a random
 philosophical question, to which you can type in an answer.
 
 Your answer is stored in a local file for later research, along with a timestamp and
-the number of the question you answered.
+the number of the question you answered. (Separator is `|` )
 
 After you answer, the terminal screen refreshes and you get a randomly picked answer from your history.
 
